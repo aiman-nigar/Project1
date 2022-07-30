@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    font-family: 'Orbitron';
+}
+
+.container {
+    margin: 1rem 0rem;
+    margin-top: 1rem;
+    padding: 1.7rem 6rem;
+    background-color: white;
+}
+
+.navbar-container {
+    position: relative;
+    display: flex;
+    /* font-family: 'Athiti', sans-serif; */
+}
+
+.navbar-container img {
+    height: 2.5rem;
+    padding-right: 11rem;
+}
+
+.navbar-container>ul {
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    float: left;
+    /* margin: 2rem; */
+}
+
+.navbar-container ul li {
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 2.5rem 0 0;
+    margin: 0 0rem;
+    /* padding-top: 1rem; */
+    position: relative;
+}
+
+.navbar-container ul li::after {
+    content: '';
+    height: 3px;
+    left: 0;
+    width: 0px;
+    background: black;
+    position: absolute;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.navbar-container ul li:hover::after {
+    font-weight: 10rem;
+    /* padding-bottom: 1rem; */
+    /* border-bottom: 3px solid black; */
+    /* text-decoration: underline black solid 2px; */
+    width: 50%;
+    cursor: pointer;
+}
+
+.button-group {
+    align-items: center;
+    justify-content: center;
+    /* display: grid; */
+    display: flex;
+    justify-content: space-between;
+    /* float: left; */
+}
+
+.search-icon {
+    height: 1rem;
+    margin-left: 9rem;
+}
+
+.nav-button {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    /* position: absolute; */
+    margin-top: 1rem;
+    padding: 0.5rem 0.4rem 0.3rem 0.4rem;
+    margin-bottom: 0.5rem;
+    width: 9rem;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+
+/* NAV COMPLETE */
+
+section [banner] {
+    position: relative;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero-container,
+.hero-container-right {
+    position: relative;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hero-container div>img {
+    position: absolute;
+    height: 30.5rem;
+    left: 0;
+    margin: 0.6rem 0 1rem 0;
+    /* margin-top: 0.6rem; */
+}
+
+.square img {
+    position: absolute;
+    height: 18rem;
+    top: 18rem;
+    left: 10rem;
+}
+
+.star img {
+    position: absolute;
+    right: -10px;
+    height: 3.6rem;
+    top: 4rem;
+}
+
+.globe img {
+    position: absolute;
+    left: 39rem;
+    height: 3.5rem;
+    top: 1rem;
+}
+
+.hero-container-right {
+    position: absolute;
+    left: 30rem;
+    top: 4rem;
+}
+
+.hero-container h1 {
+    font-size: 3.1rem;
+    font-weight: bold;
+    font-family: inherit;
+    margin-top: 3rem;
+}
+
+.hero-container p {
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0rem 3rem;
+}
+
+.button-email {
+    font-size: 1.1rem;
+    padding: 0.4rem 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 4rem 1rem 3rem 10rem;
+    width: 200px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Orbitron';
+    background-color: white;
+    /* position: absolute;
+    left: 5rem; */
+}
+
+.button-join {
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Orbitron';
+    height: 2rem;
+}
+
+h4 {
+    position: absolute;
+    display: block;
+    top: 26.5rem;
+    left: 19rem;
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: capitalize;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    /* top: 26rem; */
+    bottom: -7.2rem;
+    left: 16rem;
+}
+
+.icons img {
+    height: 2rem;
+    padding: 0.5rem;
+}
